@@ -1,7 +1,7 @@
-/* ****** ||                                     Creaated By Abhirup Kumar                                     || ****** 
-   ****** ||                            The Pinmodes Should be Change With the Diagram                         || ****** 
-   ****** ||                             This Code Consist of a Smart Breaking System                          || ******
-   ****** || THe App Called Bluetooth RC Controller App in Google play Store and also in App store is required || ******
+/* ****** ||                                     Created By Abhirup Kumar                                                 || ****** 
+   ****** ||                            The Pinmodes Should be Changed With the Diagram                                   || ****** 
+   ****** ||                             This Code Consist of a Smart Breaking System                                     || ******
+   ****** || The app is called Bluetooth RC Controller App in the Google Play Store and also in the App Store if required || ******
 */ 
 #define in1 12 //L298n Motor Driver pins.
 #define in2 11
@@ -26,11 +26,11 @@ void setup() {
   pinMode(in4, OUTPUT);
   pinMode(LED, OUTPUT); //Set the LED pin.
 }
-/* ****** ||                                     Creaated By Abhirup Kumar                                     || ****** 
-   ****** ||                            The Pinmodes Should be Change With the Diagram                         || ****** 
-   ****** ||                             This Code Consist of a Smart Breaking System                          || ******
-   ****** || THe App Called Bluetooth RC Controller App in Google play Store and also in App store is required || ******
-*/ 
+/* ****** ||                                     Created By Abhirup Kumar                                                 || ****** 
+   ****** ||                            The Pinmodes Should be Changed With the Diagram                                   || ****** 
+   ****** ||                             This Code Consist of a Smart Breaking System                                     || ******
+   ****** || The app is called Bluetooth RC Controller App in the Google Play Store and also in the App Store if required || ******
+*/
 void loop() {
   if (Serial.available() > 0) {
     command = Serial.read();
